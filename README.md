@@ -9,6 +9,9 @@ This will change the address from 0x68 to 0x69 :)
 
 If you are connecting your MPU-6050 via AD0 make sure to change the address of the code to 0x69 
 
+DO NOT CONNECT VCC AND AD0 AT THE SAME TIME !
+
+
 How-To:
 
 Download the rpi-MPU6050 file from this repository 
