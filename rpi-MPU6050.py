@@ -37,7 +37,7 @@ def get_x_rotation(x,y,z):
 
 
 bus = smbus.SMBus(1) # or bus = smbus.SMBus(1) for Revision 2 boards
-address = 0x69      # This is the address value read via the i2cdetect command
+address = 0x68      # This is the address value read via the i2cdetect command
 
 # Now wake the 6050 up as it starts in sleep mode
 bus.write_byte_data(address, power_mgmt_1, 0)
