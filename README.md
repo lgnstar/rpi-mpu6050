@@ -23,4 +23,4 @@ Then Type in terminal : Sudo python rpi-MPU6050.py
 
 Done !
 
-
+CODE BELONGS TO : https://www.sunfounder.com/
